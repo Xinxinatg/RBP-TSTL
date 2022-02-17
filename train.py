@@ -27,7 +27,7 @@ parser.add_argument('--rep_dir', help='represention file directory')
 parser.add_argument('--pro_label_dir', help='pro_label file directory')
 parser.add_argument('--load_model_dir', default=None,help='trained model file directory')
 parser.add_argument('--big_or_small_model',type=int,default=0, help='choose between big and small model,0 means big')
-parser.add_argument('--learning_rate',type=float,default=0.0001, help='learning rate')
+parser.add_argument('--learning_rate',type=float,default=0.00005, help='learning rate')
 parser.add_argument('--batch_size',type=int,default=1024)
 args = parser.parse_args()
 
