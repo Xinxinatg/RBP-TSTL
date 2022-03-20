@@ -26,5 +26,5 @@ Framework for RBP-TSTL:
     ```
 - Alternatively, the genomic prediction results of RBPs on 4 species can be downloaded directly from [google drive](https://drive.google.com/file/d/1i0oYZCt24j5--rBCuUeky81qEOZwlLT9/view?usp=sharing).
 
-##Reference
+## Reference
 * Peng,X. et. al., RBP-TSTL is a two-stage transfer learning framework for genome-scale prediction of RNA-binding proteins, submitted for publication
