@@ -17,7 +17,7 @@ python train.py     --pro_label_dir 'pretrain_accending_trP2392_trN38582_VaP292_
                     --batch_size  2048       \
                     --epoch 250 
 ```
-     - Fine-tune the customized deep learning model on the dataset of target species (Taking *Homo Sapiens* as example)
+     * Fine-tune the customized deep learning model on the dataset of target species (Taking *Homo Sapiens* as example)
     
 ```
 python train.py     --pro_label_dir '9606_accending_trP1170_trN8485_VaP126_VaN942_TeP178_TeN1202_pep_label.csv'   \ 
