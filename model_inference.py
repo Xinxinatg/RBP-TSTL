@@ -21,7 +21,7 @@ import math
 from tqdm.notebook import tqdm
 import sys
 parser = argparse.ArgumentParser(description='embeddings_for_RBP_prediction')
-parser.add_argument('--species', type='9606', default=200, help='epoch number')
+parser.add_argument('--species',default='9606', help='epoch number')
 parser.add_argument('--model_dir', default='Model/', help='model directory')
 parser.add_argument('--rep_dir', help='represention file directory')
 args = parser.parse_args()
@@ -103,7 +103,7 @@ for rep in tqdm(data_iter):
     rep=rep.to(device)
     with torch.no_grad(): 
         logits=net(rep)
-        logits_all.append(logits/0.50)
+        logits_all.append(logits/cl_dict[args.species])
 logits_in_one=torch.vstack(logits_all)
 print(soft_max(logits_in_one))
 
