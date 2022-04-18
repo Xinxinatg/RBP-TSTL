@@ -34,7 +34,7 @@ We anticipate that the proposed RBP-TSTL approach will be explored as a useful t
 ## Steps for infering potential RBPs on 4 species using trained models:
 * Download the [trained models](https://drive.google.com/drive/folders/1ZGBkgefSMD0hxILR9AIF7VG8yWfikg1q?usp=sharing)
 - Run the code 
-    - Generating embeddings of the protein sequences of the potential RBPs:
+    - Generating embeddings of the protein sequences of the potential RBPs using ProtT5:
     ```
     python generate_embeddings.py [fasta file of the sequences of potential RBPs]
     ```
