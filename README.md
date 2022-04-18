@@ -36,7 +36,7 @@ We anticipate that the proposed RBP-TSTL approach will be explored as a useful t
 - Run the code 
     - Generating embeddings of the protein sequences of the potential RBPs:
     ```
-    python generate_embeddings.py [fasta file of potential RBPs]
+    python generate_embeddings.py [fasta file of the sequences of potential RBPs]
     ```
     - Loading trained model and output confidence level (Taking *Homo Sapiens* as example):
     
