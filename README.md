@@ -30,7 +30,7 @@ We anticipate that the proposed RBP-TSTL approach will be explored as a useful t
                         --load_model_dir pretrained_model.pl   \
                         --epoch 250 
     ```
-- 
+
 ## Steps for infering potential RBPs on 4 species using trained models:
 * Download the [trained models](https://drive.google.com/drive/folders/1ZGBkgefSMD0hxILR9AIF7VG8yWfikg1q?usp=sharing)
 - Run the code 
@@ -45,7 +45,7 @@ We anticipate that the proposed RBP-TSTL approach will be explored as a useful t
                                     --rep_dir     'prot_t5_xl_uniref50_9606.csv'    \
                                     --model_dir '9606_model.pl'   
     ```
-- 
+
 ## Download of genomic scale prediction results of RBPs on 4 species:
 Alternatively, the genomic scale prediction results of RBPs on 4 species can be downloaded directly from [google drive](https://drive.google.com/file/d/1i0oYZCt24j5--rBCuUeky81qEOZwlLT9/view?usp=sharing).
 ## Reference
