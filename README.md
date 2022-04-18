@@ -38,7 +38,7 @@ We anticipate that the proposed RBP-TSTL approach will be explored as a useful t
     ```
     python generate_embeddings.py [fasta file of the sequences of potential RBPs]
     ```
-    - Loading trained model and output confidence level (Taking *Homo Sapiens* as example):
+    - Loading trained model and printing confidence level according to the order of sequences in fasta file (Taking *Homo Sapiens* as example):
     
     ```
     python model_inference.py       --species '9606'   \ 
