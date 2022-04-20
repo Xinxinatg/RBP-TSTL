@@ -67,10 +67,11 @@ Emb_dim=data.shape[1]
 if not os.path.exists(args.model_dir):
    os.mkdir(args.model_dir)
 head1,tail1=os.path.split(args.pro_label_dir)
+head2,tail2=os.path.split(args.rep_dir)
 if args.load_model_dir ==None:
-   logits_output=os.path.join(args.model_dir,tail1.split('_')[0]+'_'+args.rep_dir.split('/')[-2]  \
+   logits_output=os.path.join(args.model_dir,tail1.split('_')[0]+'_'+tail2 \
       +str(args.big_or_small_model)+ '_logits.csv')
-   model_loc=os.path.join(args.model_dir,tail1.split('_')[0]+'_'+args.rep_dir.split('/')[-2]   \
+   model_loc=os.path.join(args.model_dir,tail1.split('_')[0]+'_'+tail2  \
       +str(args.big_or_small_model)+ '.pl')
 else:
     logits_output=os.path.join(args.model_dir,'fine_tune'+tail1.split('_')[0]+'_'+args.rep_dir.split('/')[-2]  \
