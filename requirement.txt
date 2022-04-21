@@ -1,0 +1,9 @@
+pandas==1.2.4
+SentencePiece 
+transformers
+Bio
+scikit-learn==0.22.2.post1
+scipy==1.7.0
+torch==1.7.1+cu110 
+torchvision==0.8.2+cu110 
+torchaudio===0.7.2
