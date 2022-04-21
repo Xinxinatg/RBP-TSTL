@@ -57,7 +57,7 @@ pip install -r requirements.txt
                         --epoch 250 
     ```
 
-## Steps for infering potential RBPs on 4 species using trained models:
+## Steps for identifying potential RBPs on 4 species using trained models:
 * Download the [trained models](https://drive.google.com/drive/folders/1ZGBkgefSMD0hxILR9AIF7VG8yWfikg1q?usp=sharing)
 - Run the code 
     - Generating embeddings of the protein sequences of the potential RBPs using ProtT5, the output will be a csv file titled "features_mean.csv":
