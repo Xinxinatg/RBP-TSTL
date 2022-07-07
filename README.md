@@ -75,7 +75,8 @@ pip install -r requirements.txt
 ## Download of genomic scale prediction results of RBPs on 4 species:
 Alternatively, the genomic scale prediction results of RBPs on 4 species can be downloaded directly from [google drive](https://drive.google.com/file/d/1i0oYZCt24j5--rBCuUeky81qEOZwlLT9/view?usp=sharing).
 
-Update: As per [issue 1](https://github.com/Xinxinatg/RBP-TSTL/issues/1), there are a few duplicate entries in the pre-training datasets.
+## Update: 
+As per [issue 1](https://github.com/Xinxinatg/RBP-TSTL/issues/1), there are a few duplicate entries in the pre-training datasets.
 
 ![177203640-7f4f0528-6da2-4632-8f4c-47d446d9370e](https://user-images.githubusercontent.com/72983482/177761026-3cadc4a5-aa42-4d96-bc71-87ac2ae62fbd.png)
 
