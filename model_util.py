@@ -14,7 +14,7 @@ class newModel1(nn.Module):
         super().__init__()
         self.hidden_dim = 256
         self.batch_size = 256
-        self.emb_dim = Emb_dim
+        self.emb_dim = 1024
         
         # self.embedding = nn.Embedding(vocab_size, self.emb_dim, padding_idx=0)
         # self.encoder_layer = nn.TransformerEncoderLayer(d_model=512, nhead=2)
