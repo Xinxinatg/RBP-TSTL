@@ -79,7 +79,7 @@ else:
     model_loc=os.path.join(args.model_dir,'fine_tune'+tail1.split('_')[0]+'_'+tail2.split('.')[0]   \
           +str(args.big_or_small_model)+ '.pl')
     
-train_iter_cont = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, 
+#train_iter_cont = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, 
                                                                   shuffle=True,collate_fn=collate)
 
   
